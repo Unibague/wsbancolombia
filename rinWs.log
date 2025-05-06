@@ -108,3 +108,461 @@ java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - c
 2025-04-30 17:22:53,233 17:22:53.233 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
 2025-04-30 17:22:53,828 17:22:53.828 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
 2025-04-30 17:22:54,595 17:22:54.595 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 4.053 seconds (JVM running for 4.443)
+2025-05-06 17:23:21,510 17:23:21.510 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 6324 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-06 17:23:21,512 17:23:21.512 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-06 17:23:21,513 17:23:21.513 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-06 17:23:23,189 17:23:23.189 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2025-05-06 17:23:23,202 17:23:23.202 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2025-05-06 17:23:23,239 17:23:23.239 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-06 17:23:23,240 17:23:23.240 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-06 17:23:23,265 17:23:23.265 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-06 17:23:23,845 17:23:23.845 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-06 17:23:24,303 17:23:24.303 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-06 17:23:25,047 17:23:25.047 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Embedded servlet container failed to start. Port 8048 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8048 or configure this application to listen on another port.
+
+2025-05-06 17:24:33,221 17:24:33.221 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19888 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-06 17:24:33,223 17:24:33.223 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-06 17:24:33,223 17:24:33.223 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-06 17:24:35,091 17:24:35.091 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2025-05-06 17:24:35,105 17:24:35.105 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2025-05-06 17:24:35,142 17:24:35.142 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-06 17:24:35,143 17:24:35.143 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-06 17:24:35,167 17:24:35.167 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-06 17:24:35,861 17:24:35.861 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-06 17:24:36,367 17:24:36.367 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-06 17:24:37,322 17:24:37.322 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 4.72 seconds (JVM running for 5.144)
+2025-05-06 17:26:35,595 17:26:35.595 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:1	|	Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8], accept-encoding=[gzip, deflate, br, zstd], Accept-Language=[en,es-ES;q=0.8,es;q=0.5,en-US;q=0.3], connection=[keep-alive], Content-Type=[null], Cookie=[next-auth.csrf-token=10ca00734a3c503ad7a0d30f1a667b06fdfdc06aadc6f9ead040d6fc810abcf4%7C866429a8a9591b248ac44001d0bc51283cab5f2ef4c7a6ace7c530eccc3bc09a; next-auth.callback-url=%2Fdashboard; next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..GM_RNIMJ_J9L03Ne.jRwdit_NnnSj0tjAr4d00TRbeX3cvjjRaPeb2bHADj5mv5tkMtYULaOd5DkyJJKC4iR2Sa013lZexl18AB-P5043GjHWphaHmO4rtH1ixfSijP1HqcjT7Uz13gFkQ_1m9em2sp8EcQuNb0H1s0UMOfUmC5DeJ2_4yGLkEnbEcGRTLAqyVDuqpRVZvqYH3XrqoZL3v-SfVnq2__epdDMrh2kdpD6hMng1xRPkVtLNudbtbb7jqdSiqWGf_-IuAnx2aw.ygyhV5cTOarD16bjeL9-Fg], Host=[localhost:8048], Priority=[u=0, i], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0]}
+2025-05-06 17:26:46,729 17:26:46.729 [XNIO-2 task-2] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:2	|	Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8], accept-encoding=[gzip, deflate, br, zstd], Accept-Language=[en,es-ES;q=0.8,es;q=0.5,en-US;q=0.3], connection=[keep-alive], Content-Type=[null], Cookie=[next-auth.csrf-token=10ca00734a3c503ad7a0d30f1a667b06fdfdc06aadc6f9ead040d6fc810abcf4%7C866429a8a9591b248ac44001d0bc51283cab5f2ef4c7a6ace7c530eccc3bc09a; next-auth.callback-url=%2Fdashboard; next-auth.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..GM_RNIMJ_J9L03Ne.jRwdit_NnnSj0tjAr4d00TRbeX3cvjjRaPeb2bHADj5mv5tkMtYULaOd5DkyJJKC4iR2Sa013lZexl18AB-P5043GjHWphaHmO4rtH1ixfSijP1HqcjT7Uz13gFkQ_1m9em2sp8EcQuNb0H1s0UMOfUmC5DeJ2_4yGLkEnbEcGRTLAqyVDuqpRVZvqYH3XrqoZL3v-SfVnq2__epdDMrh2kdpD6hMng1xRPkVtLNudbtbb7jqdSiqWGf_-IuAnx2aw.ygyhV5cTOarD16bjeL9-Fg], Host=[localhost:8048], Priority=[u=0, i], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0]}
+2025-05-06 17:28:03,779 17:28:03.779 [XNIO-2 task-3] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:3	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Type=[null], Host=[localhost:8048], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}
+2025-05-06 17:28:34,132 17:28:34.132 [XNIO-2 task-4] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:4	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[356], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-06 17:28:34,620 17:28:34.620 [XNIO-2 task-4] WARN  o.a.c.w.s.wss4j.WSS4JInInterceptor - Security processing failed (actions mismatch)
+2025-05-06 17:28:34,624 17:28:34.624 [XNIO-2 task-4] WARN  o.a.cxf.phase.PhaseInterceptorChain - Interceptor for {http://tempuri.org}RecaudosRIN#{http://tempuri.org}ConsultarFacturaPorNumero has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: A security error was encountered when verifying the message
+	at org.apache.cxf.ws.security.wss4j.WSS4JUtils.createSoapFault(WSS4JUtils.java:218)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:317)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:171)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:332)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.wss4j.common.ext.WSSecurityException: An error was discovered processing the <wsse:Security> header
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.checkActions(WSS4JInInterceptor.java:361)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:301)
+	... 60 common frames omitted
+2025-05-06 17:28:34,636 17:28:34.636 [XNIO-2 task-4] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:4	|	Response Code: 500<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode xmlns:ns1="http://ws.apache.org/wss4j">ns1:SecurityError</faultcode><faultstring>A security error was encountered when verifying the message</faultstring></soap:Fault></soap:Body></soap:Envelope>
+2025-05-06 17:33:15,110 17:33:15.110 [XNIO-2 task-5] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:5	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[451], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+<tem:userName>rinbancoS</tem:userName>
+<tem:password>pnR0Af2ENQ</tem:password>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-06 17:33:15,117 17:33:15.117 [XNIO-2 task-5] WARN  o.a.c.w.s.wss4j.WSS4JInInterceptor - Security processing failed (actions mismatch)
+2025-05-06 17:33:15,119 17:33:15.119 [XNIO-2 task-5] WARN  o.a.cxf.phase.PhaseInterceptorChain - Interceptor for {http://tempuri.org}RecaudosRIN#{http://tempuri.org}ConsultarFacturaPorNumero has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: A security error was encountered when verifying the message
+	at org.apache.cxf.ws.security.wss4j.WSS4JUtils.createSoapFault(WSS4JUtils.java:218)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:317)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:171)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:332)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.wss4j.common.ext.WSSecurityException: An error was discovered processing the <wsse:Security> header
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.checkActions(WSS4JInInterceptor.java:361)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:301)
+	... 60 common frames omitted
+2025-05-06 17:33:15,132 17:33:15.132 [XNIO-2 task-5] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:5	|	Response Code: 500<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode xmlns:ns1="http://ws.apache.org/wss4j">ns1:SecurityError</faultcode><faultstring>A security error was encountered when verifying the message</faultstring></soap:Fault></soap:Body></soap:Envelope>
+2025-05-06 17:33:28,167 17:33:28.167 [XNIO-2 task-6] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:6	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[451], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+<tem:userName>rinbancoS</tem:userName>
+<tem:password>pnR0Af2ENQ</tem:password>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-06 17:33:28,170 17:33:28.170 [XNIO-2 task-6] WARN  o.a.c.w.s.wss4j.WSS4JInInterceptor - Security processing failed (actions mismatch)
+2025-05-06 17:33:28,171 17:33:28.171 [XNIO-2 task-6] WARN  o.a.cxf.phase.PhaseInterceptorChain - Interceptor for {http://tempuri.org}RecaudosRIN#{http://tempuri.org}ConsultarFacturaPorNumero has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: A security error was encountered when verifying the message
+	at org.apache.cxf.ws.security.wss4j.WSS4JUtils.createSoapFault(WSS4JUtils.java:218)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:317)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:171)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:332)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.wss4j.common.ext.WSSecurityException: An error was discovered processing the <wsse:Security> header
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.checkActions(WSS4JInInterceptor.java:361)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:301)
+	... 60 common frames omitted
+2025-05-06 17:33:28,178 17:33:28.178 [XNIO-2 task-6] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:6	|	Response Code: 500<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode xmlns:ns1="http://ws.apache.org/wss4j">ns1:SecurityError</faultcode><faultstring>A security error was encountered when verifying the message</faultstring></soap:Fault></soap:Body></soap:Envelope>
+2025-05-06 17:34:21,608 17:34:21.608 [XNIO-2 task-7] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:7	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[450], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+<tem:userName>Unibague</tem:userName>
+<tem:password>pnR0Af2ENQ</tem:password>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-06 17:34:21,612 17:34:21.612 [XNIO-2 task-7] WARN  o.a.c.w.s.wss4j.WSS4JInInterceptor - Security processing failed (actions mismatch)
+2025-05-06 17:34:21,614 17:34:21.614 [XNIO-2 task-7] WARN  o.a.cxf.phase.PhaseInterceptorChain - Interceptor for {http://tempuri.org}RecaudosRIN#{http://tempuri.org}ConsultarFacturaPorNumero has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: A security error was encountered when verifying the message
+	at org.apache.cxf.ws.security.wss4j.WSS4JUtils.createSoapFault(WSS4JUtils.java:218)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:317)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:171)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:332)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.wss4j.common.ext.WSSecurityException: An error was discovered processing the <wsse:Security> header
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.checkActions(WSS4JInInterceptor.java:361)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:301)
+	... 60 common frames omitted
+2025-05-06 17:34:21,629 17:34:21.629 [XNIO-2 task-7] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:7	|	Response Code: 500<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode xmlns:ns1="http://ws.apache.org/wss4j">ns1:SecurityError</faultcode><faultstring>A security error was encountered when verifying the message</faultstring></soap:Fault></soap:Body></soap:Envelope>
+2025-05-06 17:39:32,842 17:39:32.842 [XNIO-2 task-8] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:8	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[450], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+<tem:userName>Unibague</tem:userName>
+<tem:password>pnR0Af2ENQ</tem:password>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-06 17:39:32,845 17:39:32.845 [XNIO-2 task-8] WARN  o.a.c.w.s.wss4j.WSS4JInInterceptor - Security processing failed (actions mismatch)
+2025-05-06 17:39:32,847 17:39:32.847 [XNIO-2 task-8] WARN  o.a.cxf.phase.PhaseInterceptorChain - Interceptor for {http://tempuri.org}RecaudosRIN#{http://tempuri.org}ConsultarFacturaPorNumero has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: A security error was encountered when verifying the message
+	at org.apache.cxf.ws.security.wss4j.WSS4JUtils.createSoapFault(WSS4JUtils.java:218)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:317)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:171)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:332)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.wss4j.common.ext.WSSecurityException: An error was discovered processing the <wsse:Security> header
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.checkActions(WSS4JInInterceptor.java:361)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:301)
+	... 60 common frames omitted
+2025-05-06 17:39:32,857 17:39:32.857 [XNIO-2 task-8] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:8	|	Response Code: 500<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode xmlns:ns1="http://ws.apache.org/wss4j">ns1:SecurityError</faultcode><faultstring>A security error was encountered when verifying the message</faultstring></soap:Fault></soap:Body></soap:Envelope>
