@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="IFX">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="SignonRq">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ClientDt" type="xs:dateTime"/>
+                            <xs:element name="CustLangPref" type="xs:string" fixed="es-CO"/>
+                            <xs:element name="ClientApp">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Org" type="xs:string"/>
+                                        <xs:element name="Name" type="xs:string"/>
+                                        <xs:element name="Version" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

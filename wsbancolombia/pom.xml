@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>co.edu.unibague.ws</groupId>
+	<artifactId>rinWS</artifactId>
+	<version>3.0</version>
+	<packaging>jar</packaging>
+
+	<name>rinWS</name>
+	<description>Web Service to automate payments through Bancolombia offices</description>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.8.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<cxf.version>3.1.7</cxf.version>
+		<logback.version>1.1.6</logback.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.tomcat</groupId>
+					<artifactId>tomcat-jdbc</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-tomcat</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+        <!-- Change to undertow embedded server -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-undertow</artifactId>
+        </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Apache CXF -->
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-frontend-jaxws</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-ws-security</artifactId>
+			<version>${cxf.version}</version>
+		</dependency>
+
+		<!-- Oracle JDBC -->
+		<!-- Run mvn install:install-file -DgroupId=com.oracle.jdbc -DartifactId=ojdbc7 -Dversion=12.1.0.1
+		-Dpackaging=jar -Dfile=ojdbc7.jar -DgeneratePom=true-->
+<dependency>
+    <groupId>com.oracle</groupId>
+    <artifactId>ojdbc8</artifactId>
+    <version>19.3</version>
+</dependency>
+
+
+
+
+		<!-- Informix JDBC -->
+		<!-- Run mvn install:install-file -DgroupId=com.informix.jdbc -DartifactId=ifxjdbc -Dversion=4.10
+		-Dpackaging=jar -Dfile=ifxjdbc.jar -DgeneratePom=true-->
+        <dependency>
+    <groupId>com.ibm.informix</groupId>
+    <artifactId>jdbc</artifactId>
+    <version>4.10.6.20151104</version>
+</dependency>
+
+
+		<!-- Postgres JDBC-->
+		<!-- Run mvn install:install-file -DgroupId=org.postgresql -DartifactId=postgresjdbc
+		 -Dversion=42.1.1 -Dpackaging=jar -Dfile=postgresql-42.1.1.jar -DgeneratePom=true-->
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>42.1.1</version>
+</dependency>
+
+
+
+        <!--HikariCP database pooling library-->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>2.6.2</version>
+        </dependency>
+
+		<!-- ELK logging -->
+		<dependency>
+			<groupId>net.logstash.logback</groupId>
+			<artifactId>logstash-logback-encoder</artifactId>
+			<version>4.6</version>
+			<!-- Exclude older version of logback-core for conflicting with newer in spring-boot,
+            see https://github.com/logstash/logstash-logback-encoder/issues/153 -->
+			<exclusions>
+				<exclusion>
+					<artifactId>logback-core</artifactId>
+					<groupId>ch.qos.logback</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<!-- Skips all tests cases on maven build-->
+					<skipTests>true</skipTests>
+					<!-- Skips IntegrationTest cases on maven build -->
+					<!--
+					<excludes>
+						<exclude>**/*IntegrationTest.java</exclude>
+					</excludes>-->
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+                <configuration>
+                    <additionalparam>-Xdoclint:none</additionalparam>
+                </configuration>
+			</plugin>
+			<!-- Generate the WS classes from wsdl -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>jaxws-maven-plugin</artifactId>
+				<version>2.4.1</version>
+				<configuration>
+					<wsdlUrls>
+						<wsdlUrl>src/main/resources/schema/RecaudosRIN.wsdl</wsdlUrl>
+					</wsdlUrls>
+					<sourceDestDir>target/generated-sources/wsdlimport/unibague</sourceDestDir>
+					<vmArgs>
+						<vmArg>-Djavax.xml.accessExternalSchema=all</vmArg>
+					</vmArgs>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>wsimport</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>add-source</id>
+						<phase>generate-sources</phase>
+						<goals>
+							<goal>add-source</goal>
+						</goals>
+						<configuration>
+							<sources>
+								<source>target/generated-sources/wsdlimport/unibague</source>
+							</sources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+	
+    </plugins>
+ </build>
+</project>

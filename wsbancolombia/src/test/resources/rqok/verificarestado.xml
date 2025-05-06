@@ -1,0 +1,11 @@
+<IFX>
+    <SignonRq>
+        <ClientDt>2014-02-14T10:08:55</ClientDt>
+        <CustLangPref>es-CO</CustLangPref>
+        <ClientApp>
+            <Org>BANCOLOMBIA</Org>
+            <Name>RIN</Name>
+            <Version>1.0</Version>
+        </ClientApp>
+    </SignonRq>
+</IFX>

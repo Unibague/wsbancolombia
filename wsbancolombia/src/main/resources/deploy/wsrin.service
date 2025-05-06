@@ -1,0 +1,11 @@
+[Unit]
+Description=RIN Bancolombia 2 vias
+After=syslog.target
+
+[Service]
+User=g3
+ExecStart=/srv/ws/rin/rinWS.jar
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target

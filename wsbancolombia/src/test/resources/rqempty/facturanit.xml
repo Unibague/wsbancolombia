@@ -1,0 +1,22 @@
+<IFX>
+    <SignonRq>
+        <ClientDt>2014-02-14T07:12:00</ClientDt>
+        <CustLangPref>es-CO</CustLangPref>
+        <ClientApp>
+            <Org>BANCOLOMBIA</Org>
+            <Name>RIN</Name>
+            <Version>1.0</Version>
+        </ClientApp>
+    </SignonRq>
+    <PresSvcRq>
+        <RqUID>00000000-0000-0000-0000-221000600722</RqUID>
+        <BillInqRq>
+            <RqUID>00000000-0000-0000-0000-221000600722</RqUID>
+            <SPName>28422</SPName>
+            <BillerId>
+                <SPName>NIT</SPName>
+                <BillerNum>000001</BillerNum>
+            </BillerId>
+        </BillInqRq>
+    </PresSvcRq>
+</IFX>

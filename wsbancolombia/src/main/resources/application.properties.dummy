@@ -1,0 +1,26 @@
+server.port=9001
+server.ssl.key-store=classpath:certificates/keystore
+server.ssl.keyAlias=key alias
+server.ssl.key-store-password=key password
+server.ssl.keyStoreType=JKS
+server.ssl.protocol=TLS
+iceberg.db.type=com.zaxxer.hikari.HikariDataSource
+iceberg.db.jdbc-url=jdbc:oracle:thin:@//ip:port/ssid
+iceberg.db.username=user
+iceberg.db.password=password
+iceberg.db.maximum-pool-size=30
+iceberg.db.connection-timeout=1500
+ingles.db.type=com.zaxxer.hikari.HikariDataSource
+ingles.db.jdbc-url=jdbc:informix-sqli://ip:port/db:INFORMIXSERVER=server
+ingles.db.username=user
+ingles.db.password=password
+ingles.db.maximum-pool-size=15
+ingles.db.connection-timeout=1500
+postgres.db.type=com.zaxxer.hikari.HikariDataSource
+postgres.db.jdbc-url=jdbc:postgresql://localhost/db
+postgres.db.username=user
+postgres.db.maximum-pool-size=30
+postgres.db.connection-timeout=350
+security.out.signature=signature jks alias #relacionado con wssec.properties
+security.out.encrypt=firma.bancolombia
+security.in.username=basic auth user #relacionado con wssec.properties

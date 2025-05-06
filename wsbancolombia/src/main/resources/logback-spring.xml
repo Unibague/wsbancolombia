@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="co.edu.unibague.ws" level="DEBUG"/>
+    <logger name="org.apache.cxf" level="INFO"/>
+
+    <appender name="elastic" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+        <destination>192.168.70.84:5000</destination>
+        <!--<destination>localhost:5000</destination>-->
+        <encoder class="net.logstash.logback.encoder.LogstashEncoder">
+            <customFields>{"service_name":"ifx_rinWS"}</customFields>
+            <fieldNames>
+                <message>log_msg</message>
+            </fieldNames>
+        </encoder>
+        <keepAliveDuration>5 minutes</keepAliveDuration>
+    </appender>
+
+    <appender name="server" class="ch.qos.logback.core.FileAppender">
+        <file>rinWs.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%date %d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="ifxLog" level="INFO" additivity="false">
+        <appender-ref ref="elastic"/>
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="server"/>
+    </root>
+</configuration>

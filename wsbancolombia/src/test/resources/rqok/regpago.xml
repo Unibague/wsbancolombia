@@ -1,0 +1,51 @@
+<IFX>
+    <SignonRq>
+        <ClientDt>2014-02-05T08:39:17</ClientDt>
+        <CustLangPref>es-CO</CustLangPref>
+        <ClientApp>
+            <Org>BANCOLOMBIA</Org>
+            <Name>RIN</Name>
+            <Version>1.0</Version>
+        </ClientApp>
+    </SignonRq>
+    <PaySvcRq>
+        <RqUID>00000000-0000-0000-0000-009003479523</RqUID>
+        <MsgRqHdr>
+            <NetworkTrnInfo>
+                <NetworkOwner/>
+                <BankId>0007</BankId>
+            </NetworkTrnInfo>
+            <PointOfServiceData>
+                <Environment/>
+                <POSAgent>
+                    <AgentId></AgentId>
+                </POSAgent>
+                <POSLocation>9</POSLocation>
+            </PointOfServiceData>
+        </MsgRqHdr>
+        <SPName>48422</SPName>
+        <PmtAddRq>
+            <RqUID>00000000-0000-0000-0000-009003479522</RqUID>
+            <PmtInfo>
+                <CurAmt>
+                    <Amt>1525106</Amt>
+                    <CurCode>E</CurCode>
+                </CurAmt>
+                <RemitInfo>
+                    <CustPayeeId>1111100000</CustPayeeId><!--Nit de quien paga-->
+                    <BillId>00000000-0000-0000-0000-000000655779</BillId><!--Nro. Factura UUID-->
+                    <PmtId>00090001083822</PmtId>
+                    <CurAmt>
+                        <Amt>1525106</Amt>
+                    </CurAmt>
+                </RemitInfo>
+                <DepAcctIdFrom>
+                    <AcctId></AcctId>
+                    <AcctType>Default</AcctType>
+                    <BankInfo></BankInfo>
+                </DepAcctIdFrom>
+                <PrcDt>2017-06-11</PrcDt>
+            </PmtInfo>
+        </PmtAddRq>
+    </PaySvcRq>
+</IFX>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
+				  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+				  xmlns:s="http://www.w3.org/2001/XMLSchema"
+				  xmlns:tns="http://tempuri.org"
+				  xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/"
+				  targetNamespace="http://tempuri.org"
+				  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+	<wsdl:types>
+		<s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org">
+			<s:element name="VerificarEstadoWebService">
+				<s:complexType>
+					<s:sequence>
+						<s:element minOccurs="0" maxOccurs="1" name="infoDummy" type="s:string" />
+					</s:sequence>
+				</s:complexType>
+			</s:element>
+			<s:element name="VerificarEstadoWebServiceResponse">
+				<s:complexType>
+					<s:sequence>
+						<s:element minOccurs="0" maxOccurs="1" name="VerificarEstadoWebServiceResult" type="s:string" />
+					</s:sequence>
+				</s:complexType>
+			</s:element>
+			<s:element name="ConsultarFacturaPorNumero">
+				<s:complexType>
+					<s:sequence>
+						<s:element minOccurs="0" maxOccurs="1" name="numeroFactura" type="s:string" />
+					</s:sequence>
+				</s:complexType>
+			</s:element>
+			<s:element name="ConsultarFacturaPorNumeroResponse">
+				<s:complexType>
+					<s:sequence>
+						<s:element minOccurs="0" maxOccurs="1" name="ConsultarFacturaPorNumeroResult" type="s:string" />
+					</s:sequence>
+				</s:complexType>
+			</s:element>
+			<s:element name="ConsultarFacturasPorNit">
+				<s:complexType>
+					<s:sequence>
+						<s:element minOccurs="0" maxOccurs="1" name="nit" type="s:string" />
+					</s:sequence>
+				</s:complexType>
+			</s:element>
+			<s:element name="ConsultarFacturasPorNitResponse">
+				<s:complexType>
+					<s:sequence>
+						<s:element minOccurs="0" maxOccurs="1" name="ConsultarFacturasPorNitResult" type="s:string" />
+					</s:sequence>
+				</s:complexType>
+			</s:element>
+			<s:element name="ConsultarFacturasPorNegocio">
+				<s:complexType>
+					<s:sequence>
+						<s:element minOccurs="0" maxOccurs="1" name="numeroNegocio" type="s:string" />
+					</s:sequence>
+				</s:complexType>
+			</s:element>
+			<s:element name="ConsultarFacturasPorNegocioResponse">
+				<s:complexType>
+					<s:sequence>
+						<s:element minOccurs="0" maxOccurs="1" name="ConsultarFacturasPorNegocioResult" type="s:string" />
+					</s:sequence>
+				</s:complexType>
+			</s:element>
+			<s:element name="RegistrarPagoIFX">
+				<s:complexType>
+					<s:sequence>
+						<s:element minOccurs="0" maxOccurs="1" name="infoPago" type="s:string" />
+					</s:sequence>
+				</s:complexType>
+			</s:element>
+
+			<s:element name="RegistrarPagoResponse">
+				<s:complexType>
+					<s:sequence>
+						<s:element minOccurs="0" maxOccurs="1" name="RegistrarPagoResult" type="s:string" />
+					</s:sequence>
+				</s:complexType>
+			</s:element>
+			<s:element name="string" nillable="true" type="s:string" />
+		</s:schema>
+	</wsdl:types>
+	<wsdl:message name="VerificarEstadoWebServiceSoapIn">
+		<wsdl:part name="parameters" element="tns:VerificarEstadoWebService" />
+	</wsdl:message>
+	<wsdl:message name="VerificarEstadoWebServiceSoapOut">
+		<wsdl:part name="parameters" element="tns:VerificarEstadoWebServiceResponse" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturaPorNumeroSoapIn">
+		<wsdl:part name="parameters" element="tns:ConsultarFacturaPorNumero" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturaPorNumeroSoapOut">
+		<wsdl:part name="parameters" element="tns:ConsultarFacturaPorNumeroResponse" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturasPorNitSoapIn">
+		<wsdl:part name="parameters" element="tns:ConsultarFacturasPorNit" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturasPorNitSoapOut">
+		<wsdl:part name="parameters" element="tns:ConsultarFacturasPorNitResponse" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturasPorNegocioSoapIn">
+		<wsdl:part name="parameters" element="tns:ConsultarFacturasPorNegocio" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturasPorNegocioSoapOut">
+		<wsdl:part name="parameters" element="tns:ConsultarFacturasPorNegocioResponse" />
+	</wsdl:message>
+	<wsdl:message name="RegistrarPagoIFXSoapIn">
+		<wsdl:part name="parameters" element="tns:RegistrarPagoIFX" />
+	</wsdl:message>
+	<wsdl:message name="RegistrarPagoSoapOut">
+		<wsdl:part name="parameters" element="tns:RegistrarPagoResponse" />
+	</wsdl:message>
+	<wsdl:message name="VerificarEstadoWebServiceHttpGetIn" />
+	<wsdl:message name="VerificarEstadoWebServiceHttpGetOut">
+		<wsdl:part name="Body" element="tns:string" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturaPorNumeroHttpGetIn">
+		<wsdl:part name="numeroFactura" type="s:string" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturaPorNumeroHttpGetOut">
+		<wsdl:part name="Body" element="tns:string" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturasPorNitHttpGetIn">
+		<wsdl:part name="nit" type="s:string" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturasPorNitHttpGetOut">
+		<wsdl:part name="Body" element="tns:string" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturasPorNegocioHttpGetIn">
+		<wsdl:part name="numeroNegocio" type="s:string" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturasPorNegocioHttpGetOut">
+		<wsdl:part name="Body" element="tns:string" />
+	</wsdl:message>
+	<wsdl:message name="RegistrarPagoHttpGetOut">
+		<wsdl:part name="Body" element="tns:string" />
+	</wsdl:message>
+	<wsdl:message name="VerificarEstadoWebServiceHttpPostIn" />
+	<wsdl:message name="VerificarEstadoWebServiceHttpPostOut">
+		<wsdl:part name="Body" element="tns:string" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturaPorNumeroHttpPostIn">
+		<wsdl:part name="numeroFactura" type="s:string" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturaPorNumeroHttpPostOut">
+		<wsdl:part name="Body" element="tns:string" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturasPorNitHttpPostIn">
+		<wsdl:part name="nit" type="s:string" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturasPorNitHttpPostOut">
+		<wsdl:part name="Body" element="tns:string" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturasPorNegocioHttpPostIn">
+		<wsdl:part name="numeroNegocio" type="s:string" />
+	</wsdl:message>
+	<wsdl:message name="ConsultarFacturasPorNegocioHttpPostOut">
+		<wsdl:part name="Body" element="tns:string" />
+	</wsdl:message>
+	<wsdl:message name="RegistrarPagoIFXHttpPostIn">
+		<wsdl:part name="infoPago" type="s:string" />
+	</wsdl:message>
+
+	<wsdl:message name="RegistrarPagoHttpPostOut">
+		<wsdl:part name="Body" element="tns:string" />
+	</wsdl:message>
+	<wsdl:message name="RegistrarPagoIFXHttpGetIn">
+		<wsdl:part name="infoPago" type="s:string"></wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="RecaudosRINSoap">
+		<wsdl:operation name="VerificarEstadoWebService">
+			<wsdl:input message="tns:VerificarEstadoWebServiceSoapIn" />
+			<wsdl:output message="tns:VerificarEstadoWebServiceSoapOut" />
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturaPorNumero">
+			<wsdl:input message="tns:ConsultarFacturaPorNumeroSoapIn" />
+			<wsdl:output message="tns:ConsultarFacturaPorNumeroSoapOut" />
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturasPorNit">
+			<wsdl:input message="tns:ConsultarFacturasPorNitSoapIn" />
+			<wsdl:output message="tns:ConsultarFacturasPorNitSoapOut" />
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturasPorNegocio">
+			<wsdl:input message="tns:ConsultarFacturasPorNegocioSoapIn" />
+			<wsdl:output message="tns:ConsultarFacturasPorNegocioSoapOut" />
+		</wsdl:operation>
+		<wsdl:operation name="RegistrarPagoIFX">
+			<wsdl:input message="tns:RegistrarPagoIFXSoapIn" />
+			<wsdl:output message="tns:RegistrarPagoSoapOut" />
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:portType name="RecaudosRINHttpGet">
+		<wsdl:operation name="VerificarEstadoWebService">
+			<wsdl:input message="tns:VerificarEstadoWebServiceHttpGetIn" />
+			<wsdl:output message="tns:VerificarEstadoWebServiceHttpGetOut" />
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturaPorNumero">
+			<wsdl:input message="tns:ConsultarFacturaPorNumeroHttpGetIn" />
+			<wsdl:output message="tns:ConsultarFacturaPorNumeroHttpGetOut" />
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturasPorNit">
+			<wsdl:input message="tns:ConsultarFacturasPorNitHttpGetIn" />
+			<wsdl:output message="tns:ConsultarFacturasPorNitHttpGetOut" />
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturasPorNegocio">
+			<wsdl:input message="tns:ConsultarFacturasPorNegocioHttpGetIn" />
+			<wsdl:output message="tns:ConsultarFacturasPorNegocioHttpGetOut" />
+		</wsdl:operation>
+		<wsdl:operation name="RegistrarPagoIFX">
+			<wsdl:input message="tns:RegistrarPagoIFXHttpGetIn" />
+			<wsdl:output message="tns:RegistrarPagoHttpGetOut" />
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:portType name="RecaudosRINHttpPost">
+		<wsdl:operation name="VerificarEstadoWebService">
+			<wsdl:input message="tns:VerificarEstadoWebServiceHttpPostIn" />
+			<wsdl:output message="tns:VerificarEstadoWebServiceHttpPostOut" />
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturaPorNumero">
+			<wsdl:input message="tns:ConsultarFacturaPorNumeroHttpPostIn" />
+			<wsdl:output message="tns:ConsultarFacturaPorNumeroHttpPostOut" />
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturasPorNit">
+			<wsdl:input message="tns:ConsultarFacturasPorNitHttpPostIn" />
+			<wsdl:output message="tns:ConsultarFacturasPorNitHttpPostOut" />
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturasPorNegocio">
+			<wsdl:input message="tns:ConsultarFacturasPorNegocioHttpPostIn" />
+			<wsdl:output message="tns:ConsultarFacturasPorNegocioHttpPostOut" />
+		</wsdl:operation>
+		<wsdl:operation name="RegistrarPagoIFX">
+			<wsdl:input message="tns:RegistrarPagoIFXHttpPostIn" />
+			<wsdl:output message="tns:RegistrarPagoHttpPostOut" />
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="RecaudosRINSoap" type="tns:RecaudosRINSoap">
+		<soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+		<wsdl:operation name="VerificarEstadoWebService">
+			<soap:operation soapAction="http://tempuri.org/VerificarEstadoWebService" style="document" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturaPorNumero">
+			<soap:operation soapAction="http://tempuri.org/ConsultarFacturaPorNumero" style="document" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturasPorNit">
+			<soap:operation soapAction="http://tempuri.org/ConsultarFacturasPorNit" style="document" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturasPorNegocio">
+			<soap:operation soapAction="http://tempuri.org/ConsultarFacturasPorNegocio" style="document" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="RegistrarPagoIFX">
+			<soap:operation soapAction="http://tempuri.org/RegistrarPagoIFX" style="document" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:binding name="RecaudosRINHttpGet" type="tns:RecaudosRINHttpGet">
+		<http:binding verb="GET" />
+		<wsdl:operation name="VerificarEstadoWebService">
+			<http:operation location="/VerificarEstadoWebService" />
+			<wsdl:input>
+				<http:urlEncoded />
+			</wsdl:input>
+			<wsdl:output>
+				<mime:mimeXml part="Body" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturaPorNumero">
+			<http:operation location="/ConsultarFacturaPorNumero" />
+			<wsdl:input>
+				<http:urlEncoded />
+			</wsdl:input>
+			<wsdl:output>
+				<mime:mimeXml part="Body" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturasPorNit">
+			<http:operation location="/ConsultarFacturasPorNit" />
+			<wsdl:input>
+				<http:urlEncoded />
+			</wsdl:input>
+			<wsdl:output>
+				<mime:mimeXml part="Body" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturasPorNegocio">
+			<http:operation location="/ConsultarFacturasPorNegocio" />
+			<wsdl:input>
+				<http:urlEncoded />
+			</wsdl:input>
+			<wsdl:output>
+				<mime:mimeXml part="Body" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="RegistrarPagoIFX">
+			<http:operation location="/RegistrarPagoIFX" />
+			<wsdl:input>
+				<http:urlEncoded />
+			</wsdl:input>
+			<wsdl:output>
+				<mime:mimeXml part="Body" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:binding name="RecaudosRINHttpPost" type="tns:RecaudosRINHttpPost">
+		<http:binding verb="POST" />
+		<wsdl:operation name="VerificarEstadoWebService">
+			<http:operation location="/VerificarEstadoWebService" />
+			<wsdl:input>
+				<mime:content type="application/x-www-form-urlencoded" />
+			</wsdl:input>
+			<wsdl:output>
+				<mime:mimeXml part="Body" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturaPorNumero">
+			<http:operation location="/ConsultarFacturaPorNumero" />
+			<wsdl:input>
+				<mime:content type="application/x-www-form-urlencoded" />
+			</wsdl:input>
+			<wsdl:output>
+				<mime:mimeXml part="Body" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturasPorNit">
+			<http:operation location="/ConsultarFacturasPorNit" />
+			<wsdl:input>
+				<mime:content type="application/x-www-form-urlencoded" />
+			</wsdl:input>
+			<wsdl:output>
+				<mime:mimeXml part="Body" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="ConsultarFacturasPorNegocio">
+			<http:operation location="/ConsultarFacturasPorNegocio" />
+			<wsdl:input>
+				<mime:content type="application/x-www-form-urlencoded" />
+			</wsdl:input>
+			<wsdl:output>
+				<mime:mimeXml part="Body" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="RegistrarPagoIFX">
+			<http:operation location="/RegistrarPagoIFX" />
+			<wsdl:input>
+				<mime:content type="application/x-www-form-urlencoded"/>
+			</wsdl:input>
+			<wsdl:output>
+				<mime:mimeXml part="Body" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="RecaudosRIN">
+		<documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+		<wsdl:port name="RecaudosRINSoap" binding="tns:RecaudosRINSoap">
+			<soap:address location="http://localhost:8080/bancolombia/wsRin" />
+		</wsdl:port>
+		<wsdl:port name="RecaudosRINHttpGet" binding="tns:RecaudosRINHttpGet">
+			<http:address location="http://localhost:8080/bancolombia/wsRin" />
+		</wsdl:port>
+		<wsdl:port name="RecaudosRINHttpPost" binding="tns:RecaudosRINHttpPost">
+			<http:address location="http://localhost:8080/bancolombia/wsRin" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,2 @@
+signature jks alias=jks password
+basic auth user=basic auth password
