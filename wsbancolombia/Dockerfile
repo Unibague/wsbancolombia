@@ -3,7 +3,14 @@ FROM maven:3.8.8-eclipse-temurin-8 AS build
 
 WORKDIR /app
 COPY . .
-COPY .m2 /root/.m2
+
+# Instalar ojdbc8.jar en el repositorio local del contenedor
+RUN mvn install:install-file \
+  -Dfile=libs/ojdbc8.jar \
+  -DgroupId=com.oracle \
+  -DartifactId=ojdbc8 \
+  -Dversion=19.3 \
+  -Dpackaging=jar
 
 RUN mvn clean package -DskipTests
 
