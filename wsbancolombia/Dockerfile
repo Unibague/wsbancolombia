@@ -1,27 +1,17 @@
-# Etapa 1: Compilar el JAR con Maven
-FROM maven:3.9.4-eclipse-temurin-21 AS build
+# Etapa 1: Compilar el JAR con Maven (con Java 8)
+FROM maven:3.8.8-eclipse-temurin-8 AS build
 
-# Copiar todo el proyecto al contenedor
-COPY . /app
 WORKDIR /app
+COPY . .
+COPY .m2 /root/.m2
 
-# Compilar el proyecto sin ejecutar los tests
 RUN mvn clean package -DskipTests
 
-# Etapa 2: Imagen final con solo el JAR y lo necesario
-FROM eclipse-temurin:21-jre
+# Etapa 2: Imagen final con Java 8
+FROM eclipse-temurin:8-jre
 
-# Crear carpetas necesarias
-RUN mkdir /app && mkdir /app/certs
+WORKDIR /app
+COPY --from=build /app/target/*.jar /app/app.jar
 
-# Copiar el JAR generado desde la etapa anterior
-COPY --from=build /app/target/rinWS7.jar /app/app.jar
-
-# (Opcional) Copiar certificados si los tienes en una carpeta local
-COPY certs/*.jks /app/certs/
-
-# Exponer el puerto (ajústalo si tu app usa otro)
 EXPOSE 8048
-
-# Comando para ejecutar la app
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]

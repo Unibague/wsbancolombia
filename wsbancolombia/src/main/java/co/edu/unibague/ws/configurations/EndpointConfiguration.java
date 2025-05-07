@@ -168,8 +168,8 @@ public class EndpointConfiguration {
         EndpointImpl endpoint = new EndpointImpl(springBus(), recaudosRINSoap());
         endpoint.setServiceName(RinService.SERVICE_NAME);
         //endpoint.setWsdlLocation(RinService.WSDL_LOCATION.toString());
-        endpoint.getInInterceptors().add(securityInInterceptor());
-        endpoint.getOutInterceptors().add(securityOutInterceptor());
+        // endpoint.getInInterceptors().add(securityInInterceptor());
+        // endpoint.getOutInterceptors().add(securityOutInterceptor());
         endpoint.publish(SERVICE_URL);
         return endpoint;
     }

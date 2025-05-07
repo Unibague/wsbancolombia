@@ -566,3 +566,2035 @@ Caused by: org.apache.wss4j.common.ext.WSSecurityException: An error was discove
 	... 60 common frames omitted
 2025-05-06 17:39:32,857 17:39:32.857 [XNIO-2 task-8] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
 ID:8	|	Response Code: 500<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode xmlns:ns1="http://ws.apache.org/wss4j">ns1:SecurityError</faultcode><faultstring>A security error was encountered when verifying the message</faultstring></soap:Fault></soap:Body></soap:Envelope>
+2025-05-07 10:24:41,770 10:24:41.770 [Thread-7] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:24:42,226 10:24:42.226 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19888 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:24:42,227 10:24:42.227 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:24:42,228 10:24:42.228 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:24:42,874 10:24:42.874 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:24:42,876 10:24:42.876 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:24:42,879 10:24:42.879 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:24:43,057 10:24:43.057 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:24:43,114 10:24:43.114 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:24:43,549 10:24:43.549 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 1.486 seconds (JVM running for 61210.699)
+2025-05-07 10:24:45,977 10:24:45.977 [Thread-12] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:24:47,275 10:24:47.275 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19888 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:24:47,276 10:24:47.276 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:24:47,277 10:24:47.277 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:24:47,770 10:24:47.770 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:24:47,771 10:24:47.771 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:24:47,772 10:24:47.772 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:24:47,974 10:24:47.974 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:24:48,030 10:24:48.030 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:24:48,214 10:24:48.214 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 2.004 seconds (JVM running for 61215.364)
+2025-05-07 10:24:51,571 10:24:51.571 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 26168 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:24:51,573 10:24:51.573 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:24:51,573 10:24:51.573 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:24:53,470 10:24:53.470 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2025-05-07 10:24:53,483 10:24:53.483 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2025-05-07 10:24:53,522 10:24:53.522 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:24:53,523 10:24:53.523 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:24:53,547 10:24:53.547 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:24:54,010 10:24:54.010 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:24:54,452 10:24:54.452 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:24:55,260 10:24:55.260 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 4.336 seconds (JVM running for 4.839)
+2025-05-07 10:27:11,353 10:27:11.353 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:1	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[450], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+<tem:userName>Unibague</tem:userName>
+<tem:password>pnR0Af2ENQ</tem:password>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:27:11,874 10:27:11.874 [XNIO-2 task-1] WARN  o.a.c.w.s.wss4j.WSS4JInInterceptor - Security processing failed (actions mismatch)
+2025-05-07 10:27:11,880 10:27:11.880 [XNIO-2 task-1] WARN  o.a.cxf.phase.PhaseInterceptorChain - Interceptor for {http://tempuri.org}RecaudosRIN#{http://tempuri.org}ConsultarFacturaPorNumero has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: A security error was encountered when verifying the message
+	at org.apache.cxf.ws.security.wss4j.WSS4JUtils.createSoapFault(WSS4JUtils.java:218)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:317)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:171)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:332)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.wss4j.common.ext.WSSecurityException: An error was discovered processing the <wsse:Security> header
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.checkActions(WSS4JInInterceptor.java:361)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:301)
+	... 60 common frames omitted
+2025-05-07 10:27:11,919 10:27:11.919 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:1	|	Response Code: 500<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode xmlns:ns1="http://ws.apache.org/wss4j">ns1:SecurityError</faultcode><faultstring>A security error was encountered when verifying the message</faultstring></soap:Fault></soap:Body></soap:Envelope>
+2025-05-07 10:27:17,551 10:27:17.551 [XNIO-2 task-2] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:2	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[450], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+<tem:userName>Unibague</tem:userName>
+<tem:password>pnR0Af2ENQ</tem:password>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:27:17,556 10:27:17.556 [XNIO-2 task-2] WARN  o.a.c.w.s.wss4j.WSS4JInInterceptor - Security processing failed (actions mismatch)
+2025-05-07 10:27:17,557 10:27:17.557 [XNIO-2 task-2] WARN  o.a.cxf.phase.PhaseInterceptorChain - Interceptor for {http://tempuri.org}RecaudosRIN#{http://tempuri.org}ConsultarFacturaPorNumero has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: A security error was encountered when verifying the message
+	at org.apache.cxf.ws.security.wss4j.WSS4JUtils.createSoapFault(WSS4JUtils.java:218)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:317)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:171)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:332)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.wss4j.common.ext.WSSecurityException: An error was discovered processing the <wsse:Security> header
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.checkActions(WSS4JInInterceptor.java:361)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:301)
+	... 60 common frames omitted
+2025-05-07 10:27:17,576 10:27:17.576 [XNIO-2 task-2] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:2	|	Response Code: 500<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode xmlns:ns1="http://ws.apache.org/wss4j">ns1:SecurityError</faultcode><faultstring>A security error was encountered when verifying the message</faultstring></soap:Fault></soap:Body></soap:Envelope>
+2025-05-07 10:27:36,795 10:27:36.795 [Thread-7] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:27:37,023 10:27:37.023 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 26168 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:27:37,023 10:27:37.023 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:27:37,024 10:27:37.024 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:27:38,627 10:27:38.627 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 9388 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:27:38,629 10:27:38.629 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:27:38,630 10:27:38.630 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:27:40,659 10:27:40.659 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2025-05-07 10:27:40,676 10:27:40.676 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2025-05-07 10:27:40,722 10:27:40.722 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:27:40,723 10:27:40.723 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:27:40,747 10:27:40.747 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:27:41,228 10:27:41.228 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:27:41,762 10:27:41.762 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:27:42,644 10:27:42.644 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 4.647 seconds (JVM running for 5.064)
+2025-05-07 10:27:53,638 10:27:53.638 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:1	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[450], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+<tem:userName>Unibague</tem:userName>
+<tem:password>pnR0Af2ENQ</tem:password>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:27:54,098 10:27:54.098 [XNIO-2 task-1] WARN  o.a.c.w.s.wss4j.WSS4JInInterceptor - No security action was defined!
+2025-05-07 10:27:54,102 10:27:54.102 [XNIO-2 task-1] WARN  o.a.cxf.phase.PhaseInterceptorChain - Interceptor for {http://tempuri.org}RecaudosRIN#{http://tempuri.org}ConsultarFacturaPorNumero has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: No security action was defined!
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.getAction(WSS4JInInterceptor.java:519)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessageInternal(WSS4JInInterceptor.java:226)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:171)
+	at org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor.handleMessage(WSS4JInInterceptor.java:80)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:332)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-05-07 10:27:54,130 10:27:54.130 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:1	|	Response Code: 500<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode>soap:Server</faultcode><faultstring>No security action was defined!</faultstring></soap:Fault></soap:Body></soap:Envelope>
+2025-05-07 10:28:47,877 10:28:47.877 [Thread-7] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:28:48,093 10:28:48.093 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 9388 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:28:48,094 10:28:48.094 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:28:48,095 10:28:48.095 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:28:48,777 10:28:48.777 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:28:48,777 10:28:48.777 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:28:48,780 10:28:48.780 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:28:49,019 10:28:49.019 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:28:49,066 10:28:49.066 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:28:49,293 10:28:49.293 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 1.283 seconds (JVM running for 71.711)
+2025-05-07 10:29:28,620 10:29:28.620 [Thread-12] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:29:28,975 10:29:28.975 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 9388 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:29:28,976 10:29:28.976 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:29:28,976 10:29:28.976 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:29:31,165 10:29:31.165 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 13180 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:29:31,167 10:29:31.167 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:29:31,168 10:29:31.168 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:29:33,229 10:29:33.229 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2025-05-07 10:29:33,246 10:29:33.246 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2025-05-07 10:29:33,298 10:29:33.298 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:29:33,298 10:29:33.298 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:29:33,327 10:29:33.327 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:29:34,039 10:29:34.039 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:29:34,747 10:29:34.747 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:29:35,654 10:29:35.654 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 5.19 seconds (JVM running for 5.66)
+2025-05-07 10:30:33,023 10:30:33.023 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:1	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[450], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+<tem:userName>Unibague</tem:userName>
+<tem:password>pnR0Af2ENQ</tem:password>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:30:33,644 10:30:33.644 [XNIO-2 task-1] WARN  o.a.cxf.phase.PhaseInterceptorChain - Interceptor for {http://tempuri.org}RecaudosRIN#{http://tempuri.org}ConsultarFacturaPorNumero has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: Empty username for specified action.
+	at org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor$WSS4JOutInterceptorInternal.handleMessageInternal(WSS4JOutInterceptor.java:230)
+	at org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor$WSS4JOutInterceptorInternal.handleMessage(WSS4JOutInterceptor.java:135)
+	at org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor$WSS4JOutInterceptorInternal.handleMessage(WSS4JOutInterceptor.java:122)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:332)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2025-05-07 10:30:33,657 10:30:33.657 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:1	|	Response Code: 500<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode>soap:Server</faultcode><faultstring>Empty username for specified action.</faultstring></soap:Fault></soap:Body></soap:Envelope>
+2025-05-07 10:30:50,356 10:30:50.356 [Thread-7] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:30:50,593 10:30:50.593 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 13180 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:30:50,594 10:30:50.594 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:30:50,595 10:30:50.595 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:30:51,127 10:30:51.127 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:30:51,127 10:30:51.127 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:30:51,129 10:30:51.129 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:30:51,272 10:30:51.272 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:30:51,310 10:30:51.310 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:30:51,518 10:30:51.518 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 1.024 seconds (JVM running for 81.521)
+2025-05-07 10:30:56,891 10:30:56.891 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 25080 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:30:56,893 10:30:56.893 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:30:56,894 10:30:56.894 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:30:58,607 10:30:58.607 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2025-05-07 10:30:58,621 10:30:58.621 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2025-05-07 10:30:58,666 10:30:58.666 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:30:58,667 10:30:58.667 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:30:58,688 10:30:58.688 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:30:59,285 10:30:59.285 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:30:59,815 10:30:59.815 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:31:00,687 10:31:00.687 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 4.415 seconds (JVM running for 4.816)
+2025-05-07 10:31:08,822 10:31:08.822 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:1	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[450], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+<tem:userName>Unibague</tem:userName>
+<tem:password>pnR0Af2ENQ</tem:password>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:31:09,594 10:31:09.594 [XNIO-2 task-1] WARN  o.a.cxf.phase.PhaseInterceptorChain - Interceptor for {http://tempuri.org}RecaudosRIN#{http://tempuri.org}ConsultarFacturaPorNumero has thrown exception, unwinding now
+org.apache.cxf.binding.soap.SoapFault: Security processing failed.
+	at org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor$WSS4JOutInterceptorInternal.handleMessageInternal(WSS4JOutInterceptor.java:267)
+	at org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor$WSS4JOutInterceptorInternal.handleMessage(WSS4JOutInterceptor.java:135)
+	at org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor$WSS4JOutInterceptorInternal.handleMessage(WSS4JOutInterceptor.java:122)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:83)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:332)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.wss4j.common.ext.WSSecurityException: Unknown action defined: 
+	at org.apache.wss4j.dom.util.WSSecurityUtil.decodeHandlerAction(WSSecurityUtil.java:505)
+	at org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor$WSS4JOutInterceptorInternal.handleMessageInternal(WSS4JOutInterceptor.java:187)
+	... 62 common frames omitted
+2025-05-07 10:31:09,607 10:31:09.607 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:1	|	Response Code: 500<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Security processing failed.</faultstring></soap:Fault></soap:Body></soap:Envelope>
+2025-05-07 10:32:14,992 10:32:14.992 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 22048 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:32:14,995 10:32:14.995 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:32:14,996 10:32:14.996 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:32:16,698 10:32:16.698 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2025-05-07 10:32:16,713 10:32:16.713 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2025-05-07 10:32:16,757 10:32:16.757 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:32:16,758 10:32:16.758 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:32:16,790 10:32:16.790 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:32:17,432 10:32:17.432 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:32:17,946 10:32:17.946 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:32:18,719 10:32:18.719 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 4.335 seconds (JVM running for 4.777)
+2025-05-07 10:32:23,953 10:32:23.953 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:1	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[450], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+<tem:userName>Unibague</tem:userName>
+<tem:password>pnR0Af2ENQ</tem:password>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:32:24,322 10:32:24.322 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:1	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:32:24&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:32:41,263 10:32:41.263 [XNIO-2 task-2] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:2	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[372], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:32:41,307 10:32:41.307 [XNIO-2 task-2] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:2	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:32:41&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:34:27,397 10:34:27.397 [XNIO-2 task-3] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:3	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[372], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:34:27,444 10:34:27.444 [XNIO-2 task-3] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:3	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:34:27&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:36:09,514 10:36:09.514 [XNIO-2 task-4] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:4	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[372], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:36:09,585 10:36:09.585 [XNIO-2 task-4] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:4	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:36:09&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:36:12,119 10:36:12.119 [XNIO-2 task-5] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:5	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[372], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:36:12,155 10:36:12.155 [XNIO-2 task-5] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:5	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:36:12&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:36:14,068 10:36:14.068 [XNIO-2 task-6] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:6	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[372], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>16516168484</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:36:14,106 10:36:14.106 [XNIO-2 task-6] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:6	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:36:14&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:42:25,934 10:42:25.934 [XNIO-2 task-7] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:7	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[396], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>00000000-0000-0000-0000-00256457329</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:42:25,979 10:42:25.979 [XNIO-2 task-7] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:7	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:42:25&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:43:56,405 10:43:56.405 [XNIO-2 task-8] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:8	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[393], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>00000000-0000-0000-0000-00256429</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:43:56,452 10:43:56.452 [XNIO-2 task-8] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:8	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:43:56&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:44:02,281 10:44:02.281 [XNIO-2 task-9] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:9	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[375], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>00000000-00009</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:44:02,322 10:44:02.322 [XNIO-2 task-9] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:9	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:44:02&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:44:09,449 10:44:09.449 [XNIO-2 task-10] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:10	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[361], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura></tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:44:09,491 10:44:09.491 [XNIO-2 task-10] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:10	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:44:09&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:46:08,748 10:46:08.748 [XNIO-2 task-11] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:11	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[373], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>000000123564</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:46:08,784 10:46:08.784 [XNIO-2 task-11] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:11	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:46:08&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:46:17,233 10:46:17.233 [XNIO-2 task-12] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:12	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[373], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>000000123564</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:46:17,282 10:46:17.282 [XNIO-2 task-12] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:12	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:46:17&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:46:42,414 10:46:42.414 [XNIO-2 task-13] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:13	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[374], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>0000000123564</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:46:42,449 10:46:42.449 [XNIO-2 task-13] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:13	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:46:42&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:46:49,731 10:46:49.731 [XNIO-2 task-14] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:14	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[375], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>00000000123564</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:46:49,767 10:46:49.767 [XNIO-2 task-14] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:14	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:46:49&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:47:02,395 10:47:02.395 [XNIO-2 task-15] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:15	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[376], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>000000000123564</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:47:02,426 10:47:02.426 [XNIO-2 task-15] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:15	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:47:02&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:47:57,471 10:47:57.471 [XNIO-2 task-16] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:16	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>123400</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:47:57,509 10:47:57.509 [XNIO-2 task-16] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:16	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:47:57&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:48:08,872 10:48:08.872 [XNIO-2 task-17] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:17	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>567800</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:48:08,901 10:48:08.901 [XNIO-2 task-17] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:17	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:48:08&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:48:18,761 10:48:18.761 [XNIO-2 task-18] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:18	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:48:18,793 10:48:18.793 [XNIO-2 task-18] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:18	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:48:18&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:51:18,468 10:51:18.468 [Thread-7] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:51:20,309 10:51:20.309 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 22048 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:51:20,310 10:51:20.310 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:51:20,310 10:51:20.310 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:51:20,846 10:51:20.846 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:51:20,846 10:51:20.846 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:51:20,849 10:51:20.849 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:51:21,013 10:51:21.013 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:51:21,068 10:51:21.068 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:51:21,301 10:51:21.301 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 2.702 seconds (JVM running for 1147.318)
+2025-05-07 10:51:49,067 10:51:49.067 [Thread-10] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:51:49,465 10:51:49.465 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 22048 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:51:49,467 10:51:49.467 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:51:49,467 10:51:49.467 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:51:50,287 10:51:50.287 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:51:50,288 10:51:50.288 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:51:50,291 10:51:50.291 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:51:50,433 10:51:50.433 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:51:50,474 10:51:50.474 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:51:50,672 10:51:50.672 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 1.373 seconds (JVM running for 1176.687)
+2025-05-07 10:51:51,508 10:51:51.508 [XNIO-4 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:19	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:51:51,541 10:51:51.541 [XNIO-4 task-1] WARN  o.a.cxf.phase.PhaseInterceptorChain - Application {http://tempuri.org}RecaudosRIN#{http://tempuri.org}ConsultarFacturaPorNumero has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Unresolved compilation problem: 
+	Invalid character constant
+
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.createFault(AbstractJAXWSMethodInvoker.java:267)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:232)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:85)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:74)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$2.run(ServiceInvokerInterceptor.java:126)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:131)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:254)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:180)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:218)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:64)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.SessionRestoringHandler.handleRequest(SessionRestoringHandler.java:119)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:332)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Invalid character constant
+
+	at co.edu.unibague.ws.controllers.RINSoapController.searchBillBy(RINSoapController.java:129)
+	at co.edu.unibague.ws.endpoint.RinService.consultarFacturaPorNumero(RinService.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.performInvocation(JAXWSMethodInvoker.java:66)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 67 common frames omitted
+2025-05-07 10:51:51,617 10:51:51.617 [XNIO-4 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:19	|	Response Code: 500<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode>soap:Server</faultcode><faultstring>Unresolved compilation problem: 
+	Invalid character constant
+</faultstring></soap:Fault></soap:Body></soap:Envelope>
+2025-05-07 10:52:24,556 10:52:24.556 [Thread-17] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:52:24,820 10:52:24.820 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 22048 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:52:24,820 10:52:24.820 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:52:24,821 10:52:24.821 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:52:25,241 10:52:25.241 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:52:25,241 10:52:25.241 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:52:25,244 10:52:25.244 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:52:25,353 10:52:25.353 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:52:25,382 10:52:25.382 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:52:25,547 10:52:25.547 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.799 seconds (JVM running for 1211.561)
+2025-05-07 10:52:31,057 10:52:31.057 [XNIO-5 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:20	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:52:31,108 10:52:31.108 [XNIO-5 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:20	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:52:31&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:52:49,060 10:52:49.060 [Thread-23] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:52:49,269 10:52:49.269 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 22048 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:52:49,270 10:52:49.270 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:52:49,271 10:52:49.271 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:52:49,799 10:52:49.799 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:52:49,800 10:52:49.800 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:52:49,802 10:52:49.802 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:52:49,916 10:52:49.916 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:52:49,949 10:52:49.949 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:52:50,143 10:52:50.143 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.949 seconds (JVM running for 1236.156)
+2025-05-07 10:52:55,440 10:52:55.440 [XNIO-6 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:21	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:52:55,492 10:52:55.492 [XNIO-6 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:21	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:52:55&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:54:05,023 10:54:05.023 [Thread-30] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:54:05,220 10:54:05.220 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 22048 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:54:05,220 10:54:05.220 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:54:05,221 10:54:05.221 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:54:05,646 10:54:05.646 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:54:05,647 10:54:05.647 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:54:05,648 10:54:05.648 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:54:05,758 10:54:05.758 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:54:05,786 10:54:05.786 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:54:05,944 10:54:05.944 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.783 seconds (JVM running for 1311.954)
+2025-05-07 10:54:41,966 10:54:41.966 [Thread-37] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:54:42,181 10:54:42.181 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 22048 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:54:42,182 10:54:42.182 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:54:42,182 10:54:42.182 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:54:42,787 10:54:42.787 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:54:42,788 10:54:42.788 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:54:42,790 10:54:42.790 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:54:42,969 10:54:42.969 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:54:43,035 10:54:43.035 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:54:43,297 10:54:43.297 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 1.175 seconds (JVM running for 1349.307)
+2025-05-07 10:54:44,737 10:54:44.737 [XNIO-8 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:22	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:54:44,785 10:54:44.785 [XNIO-8 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:22	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:54:44&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:54:47,019 10:54:47.019 [XNIO-8 task-2] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:23	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:54:47,031 10:54:47.031 [XNIO-8 task-2] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:23	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:54:47&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:54:55,506 10:54:55.506 [XNIO-8 task-3] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:24	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:54:55,519 10:54:55.519 [XNIO-8 task-3] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:24	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:54:55&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:56:27,386 10:56:27.386 [Thread-44] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:56:27,595 10:56:27.595 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 22048 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:56:27,597 10:56:27.597 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:56:27,597 10:56:27.597 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:56:28,075 10:56:28.075 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:56:28,075 10:56:28.075 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:56:28,077 10:56:28.077 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:56:28,181 10:56:28.181 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:56:28,214 10:56:28.214 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:56:28,393 10:56:28.393 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.872 seconds (JVM running for 1454.398)
+2025-05-07 10:56:35,590 10:56:35.590 [XNIO-9 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:25	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:56:35,636 10:56:35.636 [XNIO-9 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:25	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:56:35&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 10:58:52,325 10:58:52.325 [Thread-50] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 10:58:52,621 10:58:52.621 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 22048 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 10:58:52,622 10:58:52.622 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 10:58:52,622 10:58:52.622 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 10:58:52,999 10:58:52.999 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 10:58:53,000 10:58:53.000 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 10:58:53,003 10:58:53.003 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 10:58:53,105 10:58:53.105 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 10:58:53,129 10:58:53.129 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 10:58:53,314 10:58:53.314 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.78 seconds (JVM running for 1599.313)
+2025-05-07 10:58:55,440 10:58:55.440 [XNIO-10 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:26	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 10:58:55,493 10:58:55.493 [XNIO-10 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:26	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T10:58:55&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 11:02:14,927 11:02:14.927 [Thread-57] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:02:15,128 11:02:15.128 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 22048 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:02:15,128 11:02:15.128 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:02:15,129 11:02:15.129 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:02:15,495 11:02:15.495 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:02:15,495 11:02:15.495 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:02:15,496 11:02:15.496 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:02:15,585 11:02:15.585 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:02:15,607 11:02:15.607 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:02:15,753 11:02:15.753 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.684 seconds (JVM running for 1801.746)
+2025-05-07 11:02:29,567 11:02:29.567 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:02:29,568 11:02:29.568 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:02:29,569 11:02:29.569 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:02:31,291 11:02:31.291 [restartedMain] INFO  org.xnio - XNIO version 3.3.8.Final
+2025-05-07 11:02:31,305 11:02:31.305 [restartedMain] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+2025-05-07 11:02:31,344 11:02:31.344 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:02:31,345 11:02:31.345 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:02:31,367 11:02:31.367 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:02:31,852 11:02:31.852 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:02:32,498 11:02:32.498 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:02:33,472 11:02:33.472 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 4.572 seconds (JVM running for 4.976)
+2025-05-07 11:02:35,809 11:02:35.809 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:1	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 11:02:36,246 11:02:36.246 [XNIO-2 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:1	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T11:02:35&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 11:02:51,568 11:02:51.568 [XNIO-2 task-2] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:2	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 11:02:51,648 11:02:51.648 [XNIO-2 task-2] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:2	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T11:02:51&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 11:04:07,144 11:04:07.144 [Thread-7] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:04:07,371 11:04:07.371 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:04:07,372 11:04:07.372 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:04:07,372 11:04:07.372 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:04:07,975 11:04:07.975 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:04:07,976 11:04:07.976 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:04:07,978 11:04:07.978 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:04:08,133 11:04:08.133 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:04:08,179 11:04:08.179 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:04:08,686 11:04:08.686 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 1.397 seconds (JVM running for 100.186)
+2025-05-07 11:04:10,371 11:04:10.371 [XNIO-3 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:3	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 11:04:10,452 11:04:10.452 [XNIO-3 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:3	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T11:04:10&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs/&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 11:16:43,281 11:16:43.281 [Thread-10] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:16:43,631 11:16:43.631 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:16:43,632 11:16:43.632 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:16:43,632 11:16:43.632 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:16:44,076 11:16:44.076 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:16:44,077 11:16:44.077 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:16:44,079 11:16:44.079 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:16:44,200 11:16:44.200 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:16:44,232 11:16:44.232 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:16:44,422 11:16:44.422 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.885 seconds (JVM running for 855.911)
+2025-05-07 11:16:48,693 11:16:48.693 [XNIO-4 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:4	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 11:16:48,764 11:16:48.764 [XNIO-4 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:4	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T11:16:48&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 11:18:24,307 11:18:24.307 [Thread-17] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:18:24,589 11:18:24.589 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:18:24,590 11:18:24.590 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:18:24,592 11:18:24.592 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:18:25,085 11:18:25.085 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:18:25,087 11:18:25.087 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:18:25,095 11:18:25.095 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:18:25,331 11:18:25.331 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:18:25,380 11:18:25.380 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:18:25,640 11:18:25.640 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 1.143 seconds (JVM running for 957.129)
+2025-05-07 11:18:29,380 11:18:29.380 [XNIO-5 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:5	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 11:18:29,483 11:18:29.483 [XNIO-5 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:5	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T11:18:29&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 11:19:16,717 11:19:16.717 [Thread-24] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:19:16,925 11:19:16.925 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:19:16,925 11:19:16.925 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:19:16,926 11:19:16.926 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:19:17,429 11:19:17.429 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:19:17,430 11:19:17.430 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:19:17,432 11:19:17.432 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:19:17,549 11:19:17.549 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:19:17,587 11:19:17.587 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:19:17,823 11:19:17.823 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.961 seconds (JVM running for 1009.31)
+2025-05-07 11:19:21,799 11:19:21.799 [XNIO-6 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:6	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 11:19:21,855 11:19:21.855 [XNIO-6 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:6	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T11:19:21&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 11:19:49,619 11:19:49.619 [Thread-31] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:19:51,971 11:19:51.971 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:19:51,972 11:19:51.972 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:19:51,972 11:19:51.972 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:19:52,391 11:19:52.391 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:19:52,391 11:19:52.391 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:19:52,393 11:19:52.393 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:19:52,518 11:19:52.518 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:19:52,551 11:19:52.551 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:19:52,741 11:19:52.741 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 2.981 seconds (JVM running for 1044.229)
+2025-05-07 11:19:58,660 11:19:58.660 [XNIO-7 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:7	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 11:19:58,715 11:19:58.715 [XNIO-7 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:7	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T11:19:58&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 11:20:46,548 11:20:46.548 [Thread-38] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:20:46,839 11:20:46.839 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:20:46,840 11:20:46.840 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:20:46,842 11:20:46.842 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:20:47,330 11:20:47.330 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:20:47,331 11:20:47.331 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:20:47,333 11:20:47.333 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:20:47,451 11:20:47.451 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:20:47,491 11:20:47.491 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:20:47,718 11:20:47.718 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.995 seconds (JVM running for 1099.205)
+2025-05-07 11:20:55,415 11:20:55.415 [Thread-45] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:20:55,587 11:20:55.587 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:20:55,588 11:20:55.588 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:20:55,588 11:20:55.588 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:20:56,048 11:20:56.048 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:20:56,048 11:20:56.048 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:20:56,049 11:20:56.049 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:20:56,163 11:20:56.163 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:20:56,193 11:20:56.193 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:20:56,431 11:20:56.431 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.911 seconds (JVM running for 1107.918)
+2025-05-07 11:20:57,811 11:20:57.811 [Thread-52] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:21:00,619 11:21:00.619 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:21:00,620 11:21:00.620 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:21:00,620 11:21:00.620 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:21:01,025 11:21:01.025 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:21:01,026 11:21:01.026 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:21:01,028 11:21:01.028 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:21:01,124 11:21:01.124 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:21:01,151 11:21:01.151 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:21:01,337 11:21:01.337 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 3.342 seconds (JVM running for 1112.824)
+2025-05-07 11:21:09,523 11:21:09.523 [XNIO-10 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:8	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[367], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>698718</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 11:21:09,577 11:21:09.577 [XNIO-10 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:8	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T11:21:09&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 11:22:02,327 11:22:02.327 [XNIO-10 task-2] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:9	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[371], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>welmflwemf</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 11:22:02,343 11:22:02.343 [XNIO-10 task-2] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:9	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T11:22:02&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 11:22:11,458 11:22:11.458 [XNIO-10 task-3] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:10	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[376], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>385904385943859</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 11:22:11,475 11:22:11.475 [XNIO-10 task-3] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:10	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T11:22:11&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 11:23:13,666 11:23:13.666 [Thread-58] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:23:13,939 11:23:13.939 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:23:13,941 11:23:13.941 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:23:13,942 11:23:13.942 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:23:14,366 11:23:14.366 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:23:14,367 11:23:14.367 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:23:14,368 11:23:14.368 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:23:14,459 11:23:14.459 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:23:14,483 11:23:14.483 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:23:14,690 11:23:14.690 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.831 seconds (JVM running for 1246.175)
+2025-05-07 11:23:41,268 11:23:41.268 [Thread-64] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:23:41,558 11:23:41.558 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:23:41,559 11:23:41.559 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:23:41,559 11:23:41.559 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:23:41,957 11:23:41.957 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:23:41,958 11:23:41.958 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:23:41,960 11:23:41.960 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:23:42,063 11:23:42.063 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:23:42,091 11:23:42.091 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:23:42,383 11:23:42.383 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.898 seconds (JVM running for 1273.868)
+2025-05-07 11:23:49,015 11:23:49.015 [Thread-71] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:23:49,294 11:23:49.294 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:23:49,294 11:23:49.294 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:23:49,295 11:23:49.295 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:23:49,759 11:23:49.759 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:23:49,760 11:23:49.760 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:23:49,761 11:23:49.761 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:23:49,865 11:23:49.865 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:23:49,888 11:23:49.888 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:23:50,160 11:23:50.160 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.929 seconds (JVM running for 1281.645)
+2025-05-07 11:23:59,827 11:23:59.827 [XNIO-13 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Incoming request:
+ID:11	|	Headers: {accept-encoding=[gzip,deflate], connection=[Keep-Alive], Content-Length=[376], content-type=[text/xml;charset=UTF-8], Host=[localhost:8048], SOAPAction=["http://tempuri.org/ConsultarFacturaPorNumero"], User-Agent=[Apache-HttpClient/4.5.5 (Java/17.0.12)]}<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org">
+   <soapenv:Header>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarFacturaPorNumero>
+         <!--Optional:-->
+         <tem:numeroFactura>385904385943859</tem:numeroFactura>
+      </tem:ConsultarFacturaPorNumero>
+   </soapenv:Body>
+</soapenv:Envelope>
+2025-05-07 11:23:59,875 11:23:59.875 [XNIO-13 task-1] INFO  o.a.c.s.R.R.RecaudosRINSoap - Outgoing response:
+ID:11	|	Response Code: 200<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ConsultarFacturaPorNumeroResponse xmlns="http://tempuri.org"><ConsultarFacturaPorNumeroResult>&lt;IFX&gt;
+    &lt;SignonRs&gt;
+        &lt;CustLangPref&gt;es-CO&lt;/CustLangPref&gt;
+        &lt;ClientApp&gt;
+            &lt;Org&gt;Universidad de Ibague&lt;/Org&gt;
+            &lt;Name&gt;wsRIN&lt;/Name&gt;
+            &lt;Version&gt;1.0&lt;/Version&gt;
+        &lt;/ClientApp&gt;
+        &lt;ServerDt&gt;2025-05-07T11:23:59&lt;/ServerDt&gt;
+        &lt;Language&gt;es-CO&lt;/Language&gt;
+    &lt;/SignonRs&gt;
+    &lt;PresSvcRs&gt;
+        &lt;BillInqRs&gt;
+            &lt;Status&gt;
+                &lt;StatusCode&gt;-099&lt;/StatusCode&gt;
+                &lt;Severity&gt;Error&lt;/Severity&gt;
+                &lt;StatusDesc&gt;Error tecnico&lt;/StatusDesc&gt;
+            &lt;/Status&gt;
+        &lt;/BillInqRs&gt;
+    &lt;/PresSvcRs&gt;
+&lt;/IFX&gt;</ConsultarFacturaPorNumeroResult></ConsultarFacturaPorNumeroResponse></soap:Body></soap:Envelope>
+2025-05-07 11:24:21,843 11:24:21.843 [Thread-77] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:24:24,333 11:24:24.333 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:24:24,334 11:24:24.334 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:24:24,334 11:24:24.334 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:24:24,679 11:24:24.679 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:24:24,679 11:24:24.679 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:24:24,681 11:24:24.681 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:24:24,774 11:24:24.774 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:24:24,797 11:24:24.797 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:24:24,977 11:24:24.977 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 2.957 seconds (JVM running for 1316.462)
+2025-05-07 11:34:19,551 11:34:19.551 [Thread-83] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'classPathFileSystemWatcher': java.lang.NullPointerException
+2025-05-07 11:34:19,748 11:34:19.748 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Starting RinWsApplication on DESKTOP-HI2LT27 with PID 19556 (C:\Users\U15280500268\Documents\WSBancolombia\wsbancolombia\target\classes started by U15280500268 in C:\Users\U15280500268\Documents\WSBancolombia)
+2025-05-07 11:34:19,749 11:34:19.749 [restartedMain] DEBUG co.edu.unibague.ws.RinWsApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE
+2025-05-07 11:34:19,749 11:34:19.749 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - No active profile set, falling back to default profiles: default
+2025-05-07 11:34:20,151 11:34:20.151 [restartedMain] WARN  io.undertow.websockets.jsr - UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2025-05-07 11:34:20,152 11:34:20.152 [restartedMain] WARN  io.undertow.websockets.jsr - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2025-05-07 11:34:20,153 11:34:20.153 [restartedMain] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-05-07 11:34:20,237 11:34:20.237 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean - Creating Service {http://tempuri.org}RecaudosRIN from class org.tempuri.RecaudosRINSoap
+2025-05-07 11:34:20,261 11:34:20.261 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /wsrin
+2025-05-07 11:34:20,451 11:34:20.451 [restartedMain] INFO  co.edu.unibague.ws.RinWsApplication - Started RinWsApplication in 0.764 seconds (JVM running for 1911.929)
